@@ -40,3 +40,4 @@ Inclua no profile da sua maquina esse export
 ```bash
 export GPG_TTY=$(tty)
 ```
+atualizando status do chave GPG
