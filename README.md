@@ -23,7 +23,7 @@ gpg --full-generate-key
 Agora com a a chave gerada export a chave publica para adiciona-la ao GITHUB  
 
 ```bash
-gpg --armor --export DCBA2F30A00DB201 
+gpg --armor --export DCBA2F30A00xxxx 
 ``` 
 ## Adicionando no GITHUB
 
@@ -31,3 +31,12 @@ gpg --armor --export DCBA2F30A00DB201
  - grava sua chave GPG publica 
 
 Configura o seu git local na sua maquina 
+
+```bash
+git config --global user.signingkey DCBA2F30A00xxxx
+```
+
+Inclua no profile da sua maquina esse export
+```bash
+export GPG_TTY=$(tty)
+```
