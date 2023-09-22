@@ -41,3 +41,16 @@ Inclua no profile da sua maquina esse export
 export GPG_TTY=$(tty)
 ```
 atualizando status do chave GPG
+git log --show-signature -1
+
+## adicionando um novo e-mail dentro da sua chave publica 
+
+```bash
+gpg --edit-key DCBA2F30A00xxxx
+
+# comnados dentro do gpg
+# > adduid - adiciona novo email 
+# > preencha os campos de acordo com a 1 vez
+# > trust - confie na chave nova 
+# > save - finaliza a edicao 
+``` 
