@@ -1,4 +1,4 @@
-# Dessafio Fullcycle Configurando 
+# Desafio Fullcycle Configurando 
 
 ## Assinaturas de commits
 instalar uma chave GPG pessoal em seu computador 
