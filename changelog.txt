@@ -1,0 +1,4 @@
+- criamos a chave 
+- fiz commit e nada 
+- verifiquei o e-mail estava errado 
+- mudei o email com nopvos commits
