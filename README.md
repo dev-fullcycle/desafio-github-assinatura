@@ -54,3 +54,5 @@ gpg --edit-key DCBA2F30A00xxxx
 # > trust - confie na chave nova 
 # > save - finaliza a edicao 
 ``` 
+
+## configurando ambiente windows 
